@@ -1,0 +1,320 @@
+/* Estilo general */
+body {
+    background-color: #000;
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.85)
+        ),
+        url("../fondo/fondo9.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #eaeaea;
+}
+
+/* Cabecera */
+header {
+    background-color: #12001f;
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.85)
+        ),
+        url("../fondo/fondo10.jpg");
+
+    border-bottom: 3px solid #ff00ff;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 25px #ff00ff;
+}
+
+header h1 {
+    color: #ff00ff;
+    font-size: 48px;
+    letter-spacing: 4px;
+    text-shadow:
+        0 0 5px #ff00ff,
+        0 0 15px #ff00ff,
+        0 0 30px #8a2be2;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #00ffff;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px auto 20px auto;
+}
+
+/* Menu vertical */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00ffff;
+    font-weight: bold;
+    padding: 8px 20px;
+    border: 2px solid #00ffff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #00ffff;
+}
+
+nav a:hover {
+    background-color: #00ffff;
+    color: #000;
+    box-shadow: 0 0 20px #00ffff;
+}
+
+/* Contenido */
+section {
+    background-color: rgba(20, 0, 40, 0.9);
+    width: 65%;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow:
+        0 0 20px #8a2be2,
+        0 0 40px #ff00ff;
+}
+
+/* Títulos */
+h2, h3 {
+    color: #ff00ff;
+    text-align: center;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+/* Texto */
+p {
+    color: #eaeaea;
+    text-align: justify;
+}
+
+/* Decoraciones */
+.decoracion-texto {
+    color: #00ffff;
+    font-weight: bold;
+    text-shadow: 0 0 10px #00ffff;
+}
+
+.decoracion-texto2 {
+    color: #ff00ff;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+/* Imagen */
+.imagen-principal {
+    display: block;
+    margin: 30px auto;
+    width: 75%;
+    border-radius: 20px;
+    box-shadow:
+        0 0 25px #ff00ff,
+        0 0 50px #8a2be2;
+}
+
+/* Listas */
+ul {
+    list-style-type: "⚡ ";
+    padding-left: 20px;
+}
+
+ol {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Lista arcoíris */
+.lista-arcoiris li {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #00ffff;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #00ffff;
+}
+
+/* Colores neón */
+.color-rojo { color: #ff004c; }
+.color-naranja { color: #ff8800; }
+.color-amarillo { color: #ffee00; }
+.color-verde { color: #00ff6a; }
+.color-azul { color: #00ccff; }
+.color-morado { color: #b700ff; }
+
+/* Formulario */
+form {
+    background-color: #12001f;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #ff00ff;
+}
+
+label {
+    color: #00ffff;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 1px solid #00ffff;
+    background-color: #000;
+    color: #00ffff;
+}
+
+button {
+    background-color: #ff00ff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: #000;
+    font-weight: bold;
+    box-shadow: 0 0 15px #ff00ff;
+}
+
+button:hover {
+    background-color: #00ffff;
+    box-shadow: 0 0 25px #00ffff;
+}
+
+/* Footer */
+footer {
+    background-color: #12001f;
+    text-align: center;
+    padding: 15px;
+    color: #00ffff;
+    border-top: 2px solid #ff00ff;
+}
+
+/* Multimedia */
+.fila-videos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.fila-videos video,
+.fila-videos img {
+    width: 280px;
+    border-radius: 18px;
+    border: 2px solid #00ffff;
+    box-shadow:
+        0 0 15px #00ffff,
+        0 0 30px #ff00ff;
+}
+
+.bloque-media {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow:
+        0 0 20px #8a2be2,
+        0 0 40px #ff00ff;
+}
+
+.bloque-audio {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 25px;
+    border-radius: 25px;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow:
+        0 0 20px #00ffff,
+        0 0 40px #ff00ff;
+}
+
+.bloque-audio p {
+    color: #ff00ff;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ff00ff;
+    margin-bottom: 8px;
+}
+
+audio {
+    width: 80%;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 8px #00ffff);
+}
+
+/* Tabla discografia */
+.tabla-discografia {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow:
+        0 0 25px #8a2be2,
+        0 0 45px #ff00ff;
+}
+/* Celdas y bordes */
+.tabla-discografia th,
+.tabla-discografia td {
+    border: 1px solid #00ffff;
+    padding: 12px;
+    text-align: center;
+    color: #eaeaea;
+}
+
+/* Cabecera tabla */
+.tabla-discografia th {
+    background-color: rgba(255, 0, 255, 0.15);
+    color: #ff00ff;
+    text-shadow: 0 0 8px #ff00ff;
+    font-weight: bold;
+}
+
+.titulo-tabla {
+    font-size: 22px;
+    background-color: rgba(0, 255, 255, 0.2);
+    color: #00ffff;
+    text-shadow: 0 0 12px #00ffff;
+}
+
+.tabla-discografia tr:nth-child(even) td {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.tabla-discografia caption {
+    margin-bottom: 10px;
+}
+
+.tabla-discografia .decoracion-texto {
+    color: #00ffff;
+    font-weight: bold;
+    text-shadow: 0 0 10px #00ffff;
+}
+
+section a {
+    color: #00ffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 0 8px #00ffff;
+}
+
+section a:hover {
+    color: #ff00ff;
+    text-shadow: 0 0 12px #ff00ff;
+}
