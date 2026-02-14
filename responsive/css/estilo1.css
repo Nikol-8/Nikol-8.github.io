@@ -269,6 +269,7 @@ audio {
     margin-bottom: 15px;
 }
 
+
 /* ===================================================== */
 /* =================== RESPONSIVE ====================== */
 /* ===================================================== */
@@ -294,9 +295,6 @@ img, video {
         width: 90%;
     }
 
-    audio {
-        width: 100%;
-    }
 }
 
 /* ===== MÓVIL ===== */
@@ -316,55 +314,25 @@ img, video {
         font-size: 12px;
     }
 
-    /* Menú en vertical */
+    /* Menú navegacion */
     nav ul {
-        flex-direction: column;
-        gap: 10px;
+    flex-direction: column;
     }
 
-    /* Contenido ocupa casi todo el ancho */
+
+    /* Seccion principal */
     section {
         width: 95%;
         padding: 15px;
     }
 
-    /* Imagen más grande en móvil */
+    /* Imagen principal */
     .imagen-principal {
         width: 100%;
     }
-
-    /* Videos en columna */
-    .fila-videos {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .fila-videos video,
-    .fila-videos img {
-        width: 90%;
-    }
-
-    /* Tabla adaptable */
-    .tabla-discografia {
-        font-size: 14px;
-    }
-
-    .tabla-discografia th,
-    .tabla-discografia td {
-        padding: 8px;
-    }
-
-    /* Formularios */
-    input, textarea {
-        font-size: 14px;
-    }
-
+    
+    /* Formulario */
     button {
-        width: 100%;
-    }
-
-    /* Audio ocupa todo */
-    audio {
-        width: 100%;
+    width: 100%;
     }
 }
