@@ -1,0 +1,370 @@
+body {
+    background-color: #fffefb;
+    background-image: url("../fondo/fondo1.jpg");
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Cabecera */
+header {
+    background-image:
+        linear-gradient(
+            rgba(255, 182, 213, 0.6),
+            rgba(255, 182, 213, 0.6)
+        ),
+        url("../fondo/header5.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    padding: 60px 20px;
+    
+}
+
+header h1 {
+    color: #934dda;
+    font-size: 52px;
+    letter-spacing: 3px;
+    text-shadow: 
+        2px 2px 0px #ffe2f0;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #934dda;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Men'u */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #934dda;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff69b4;
+    text-decoration: underline;
+}
+
+/* Contenido */
+section {
+    background-color: #ffc4e5f3;
+    width: 80%;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px #ff97e5;
+}
+
+/* Títulos */
+h2, h3 {
+    color: #934dda;
+    text-align: center;
+}
+
+/* Texto */
+p {
+    color: #444;
+    text-align: justify;
+}
+.decoracion-texto {
+    color: #fcff47;   
+    font-weight: bold;
+}
+
+.decoracion-texto2 {
+    color: #47bbff;   
+    font-weight: bold;
+}
+
+.color-rojo { color: #ff2c21;
+font-weight: bold;
+}
+.color-naranja { color: #ff9500;
+font-weight: bold;
+}
+.color-amarillo { color: #fbff00;
+font-weight: bold;
+}
+.color-verde { color: #00ff00;
+font-weight: bold;
+}
+.color-azul { color: #00bbff;
+font-weight: bold;
+}
+.color-morado { color: #a200ff;
+font-weight: bold;
+}
+
+/* Imagen */
+.imagen-principal {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 15px;
+}
+
+/* Listas */
+ul {
+    list-style-type: "♡ ";
+    padding-left: 20px;
+}
+
+ol {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+/* Lista numerada cuqui */
+.lista-arcoiris li {
+    background-color: #ffaedbb2;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+/* Formulariio */
+form {
+    background-color: #ffe2f0;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+label {
+    color: #934dda;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ffb3d9;
+}
+
+button {
+    background-color: #ffb3d9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #6a2c70;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffcce6;
+}
+
+/* Footer */
+footer {
+    background-color: #ffcce6;
+    text-align: center;
+    padding: 15px;
+    color: #934dda;
+    margin-top: 30px;
+}
+
+/* Tabla */
+.tabla-discografia {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffe2f0;
+    margin: 20px auto;
+    color: #444; 
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Celdas */
+.tabla-discografia th,
+.tabla-discografia td {
+    border: 2px solid #ff97e5;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Cabecera de columnas */
+.tabla-discografia th {
+    background-color: #ffcce6;
+    color: #934dda;
+    font-weight: bold;
+}
+
+/* Fila del título grande */
+.titulo-tabla {
+    font-size: 20px;
+    background-color: #ffb3d9;
+    color: #6a2c70;
+}
+
+/* Caption */
+.decoracion-caption {
+    color: #934dda;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+/* Filas alternas */
+.tabla-discografia tr:nth-child(even) td {
+    background-color: #fff0f7;
+}
+
+
+.fila-videos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.fila-videos video,
+.fila-videos img {
+    width: 280px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(255, 151, 229, 0.6);
+}
+
+/* multimedia */
+.bloque-media {
+    background-color: #ffe2f0;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Audios */
+.bloque-audio {
+    background-color: #fff0f7;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bloque-audio p {
+    color: #934dda;
+    font-weight: bold;
+    text-align: center;
+}
+
+audio {
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+/* ===================================================== */
+/* =================== RESPONSIVE ====================== */
+/* ===================================================== */
+
+/* Ajustes generales para que nada se desborde */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ===== TABLET ===== */
+@media (max-width: 1024px) {
+
+    section {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    .imagen-principal {
+        width: 90%;
+    }
+
+    audio {
+        width: 100%;
+    }
+}
+
+/* ===== MÓVIL ===== */
+@media (max-width: 768px) {
+
+    /* Header más compacto */
+    header {
+        padding: 40px 15px;
+    }
+
+    header h1 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    header p {
+        font-size: 12px;
+    }
+
+    /* Menú en vertical */
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Contenido ocupa casi todo el ancho */
+    section {
+        width: 95%;
+        padding: 15px;
+    }
+
+    /* Imagen más grande en móvil */
+    .imagen-principal {
+        width: 100%;
+    }
+
+    /* Videos en columna */
+    .fila-videos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fila-videos video,
+    .fila-videos img {
+        width: 90%;
+    }
+
+    /* Tabla adaptable */
+    .tabla-discografia {
+        font-size: 14px;
+    }
+
+    .tabla-discografia th,
+    .tabla-discografia td {
+        padding: 8px;
+    }
+
+    /* Formularios */
+    input, textarea {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    /* Audio ocupa todo */
+    audio {
+        width: 100%;
+    }
+}
